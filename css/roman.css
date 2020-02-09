@@ -66,6 +66,16 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .useCasesFontSize18{
+        font-size: 15px !important; 
+    }
+    
+    .useCasesFontSize14{
+        font-size: 12px !important; 
+    }
+}
+
 
 @media screen and (max-width: 576px) {
     #proofSkill-left-btn {
@@ -77,12 +87,35 @@
         height: 150px;
         margin-bottom: 48px;
     }
+
+    .useCasesFontSize18{
+        font-size: 18px !important; 
+    }
+    
+    .useCasesFontSize14{
+        font-size: 14px !important; 
+    }
 }
 
 @media screen and (max-width: 376px) {
+    
     #proofSkill-left-btn {
         line-height: 24px;
         padding-top: 8px;
         padding-bottom: 8px;
     }
+
+    .useCasesFontSize18{
+        font-size: 18px !important; 
+    }
+    
+    .useCasesFontSize14{
+        font-size: 14px !important; 
+    }
 }
+
+/* fix after pushed to git */
+
+/* use case */
+
+
