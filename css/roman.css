@@ -99,6 +99,7 @@
     }
 }
 
+
 @media screen and (max-width: 376px) {
 
     #proofSkill-left-btn {
@@ -116,6 +117,29 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+
+
+    .useCasesFontSize18 {
+        font-size: 16px !important;
+    }
+
+    .useCasesFontSize14 {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+
+
+    .useCasesFontSize18 {
+        font-size: 16px !important;
+    }
+
+    .useCasesFontSize14 {
+        font-size: 13px !important;
+    }
+}
 
 
 .navbar.scrolled {
