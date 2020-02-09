@@ -26,11 +26,11 @@
 	<link rel="stylesheet" href="css/roman.css">
 </head>
 
-<body>
 
+<body>
 	<nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a href="index.html"><img src="images/logo-eee-full.png" height="128px"></a>
+			<a href="index.html"><img src="images/logo-eee-full.png" class="scrollImg" height="128px"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
@@ -694,7 +694,35 @@
 	</script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+
+
 	<script src="js/roman.js"></script>
+
+	<script>
+		// $(function () {
+		// 	$(document).scroll(function () {
+		// 		var $nav = $(".navbar");
+		// 		// $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		// 	});
+		// });
+
+		$(function () {
+			var initialSrc = "images/logo-eee-full.png";
+			var scrollSrc = "images/logo-333-full.png";
+
+			$(document).scroll(function () {
+				var $nav = $(".navbar");
+				var value = $(this).scrollTop();
+				if (value > $nav.height()) {
+					console.log(value);
+					// $('.scrollImg').attr("src", scrollSrc);
+					$('.scrollImg').attr("src", scrollSrc);
+				} else {
+					$(".scrollImg").attr("src", initialSrc);
+				}
+			});
+		});
+	</script>
 
 </body>
 

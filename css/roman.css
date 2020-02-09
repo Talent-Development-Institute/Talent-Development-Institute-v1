@@ -56,23 +56,25 @@
     #skillInspection-right-btn {
         height: 81px !important;
     }
-    #skillInspection-right-btn.px-4{
-        padding-left:12px!important;
-        padding-right: 12px!important;
+
+    #skillInspection-right-btn.px-4 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
     }
-    #proofSkill-left-btn.px-4{
-        padding-left:12px!important;
-        padding-right: 12px!important;
+
+    #proofSkill-left-btn.px-4 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .useCasesFontSize18{
-        font-size: 15px !important; 
+    .useCasesFontSize18 {
+        font-size: 15px !important;
     }
-    
-    .useCasesFontSize14{
-        font-size: 12px !important; 
+
+    .useCasesFontSize14 {
+        font-size: 12px !important;
     }
 }
 
@@ -88,34 +90,35 @@
         margin-bottom: 48px;
     }
 
-    .useCasesFontSize18{
-        font-size: 18px !important; 
+    .useCasesFontSize18 {
+        font-size: 18px !important;
     }
-    
-    .useCasesFontSize14{
-        font-size: 14px !important; 
+
+    .useCasesFontSize14 {
+        font-size: 14px !important;
     }
 }
 
 @media screen and (max-width: 376px) {
-    
+
     #proofSkill-left-btn {
         line-height: 24px;
         padding-top: 8px;
         padding-bottom: 8px;
     }
 
-    .useCasesFontSize18{
-        font-size: 18px !important; 
+    .useCasesFontSize18 {
+        font-size: 18px !important;
     }
-    
-    .useCasesFontSize14{
-        font-size: 14px !important; 
+
+    .useCasesFontSize14 {
+        font-size: 14px !important;
     }
 }
 
-/* fix after pushed to git */
-
-/* use case */
 
 
+.navbar.scrolled {
+    background-color: rgb(255, 255, 255) !important;
+    transition: background-color 200ms linear;
+}
